@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: finacelReport
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
